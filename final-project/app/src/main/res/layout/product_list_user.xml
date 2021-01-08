@@ -1,0 +1,68 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:clickable="true"
+    app:cardCornerRadius="5dp"
+    android:elevation="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cat_name"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Any"
+                android:textColor="#414142"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cat_price"
+                android:layout_marginTop="20dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Any"
+                android:textColor="#3C3C3C"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/product_img"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_alignParentEnd="true"
+
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="admin_page">Admin</string>
+    <string name="home_page">Home</string>
+    <string name="signup_page">SignUp</string>
+    <string name="login_page">Login</string>
+</resources>
