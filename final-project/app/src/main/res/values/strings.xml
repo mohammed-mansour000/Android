@@ -4,4 +4,6 @@
     <string name="home_page">Home</string>
     <string name="signup_page">SignUp</string>
     <string name="login_page">Login</string>
+    <string name="cart_page">Cart</string>
+    <string name="details_page">Item Info</string>
 </resources>
